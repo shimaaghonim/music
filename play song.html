@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="css/style11.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="css/image.png" />
+</head>
+<body>
+  <div class="container">
+    <h2>Music <span>Player</span></h2>
+    <div class="player">
+      <img src="css/cover.jpg" alt="Cover" class="cover" />
+      <h3>DARKSIDE</h3>
+      <p>Neoni</p>
+      <input type="range" id="progress" value="0" />
+      <div class="controls">
+        <button id="prev"><i class="fas fa-backward"></i></button>
+        <button id="play"><i class="fas fa-play"></i></button>
+        <button id="next"><i class="fas fa-forward"></i></button>
+      </div>
+      
+      <audio id="audio" src="music/your_audio.mp3"></audio>
+    </div>
+  </div>
+  <script src="java/script.js"></script>
+</body>
+</html>
